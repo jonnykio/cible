@@ -1,0 +1,11 @@
+{
+  "name": "cible",
+  "version": "0.0.1",
+  "description": "A Charting Tool for Vue using the power of d3.js and three.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonathan@beamcoda.com",
+  "license": "MIT"
+}
