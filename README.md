@@ -1,5 +1,8 @@
 # Cible
 
+[![npm version](https://badge.fury.io/js/cible.svg)](https://badge.fury.io/js/cible)
+[![npm downloads](https://img.shields.io/npm/dm/cible.svg?style=flat-square)](https://www.npmjs.com/package/cible)
+
 **Note: This package is currently under active development and not yet ready for production use.**
 
 ## Introduction
@@ -18,7 +21,8 @@ This package is actively being developed. We welcome contributions and feedback 
 - Implement more chart types and customization options.
 - Improve documentation and examples.
 - Enhance performance and stability.
-- Contributing
+
+# Contributing
 - Contributions are welcome! Please fork the repository and submit pull requests or open issues for any bugs or feature requests.
 
 # License

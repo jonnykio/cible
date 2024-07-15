@@ -1,11 +1,41 @@
 {
   "name": "cible",
   "version": "0.0.1",
+  "homepage": "https://github.com/jonnykio/cible#readme",
   "description": "A Charting Tool for Vue using the power of d3.js and three.js.",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnykio/cible.git"
+  },
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
   },
   "author": "jonathan@beamcoda.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.31",
+    "cible": "file:../cible"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vue-tsc": "^2.0.26"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "chart",
+    "charts",
+    "d3",
+    "d3js",
+    "threejs",
+    "3d",
+    "charting",
+    "data visualization"
+  ]
 }
